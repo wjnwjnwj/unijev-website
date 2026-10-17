@@ -1,0 +1,1176 @@
+{
+  "description": "Training samples for browsing. Only the first question of multi-question records is included. Original data: https://github.com/wjnwjnwj/UniJev/tree/main/data",
+  "samples": [
+    {
+      "id": "image_01",
+      "label": "image 01",
+      "modality": "image",
+      "topic": "vqa",
+      "source": "laion/clevr-webdataset",
+      "recordId": "clevr:4425",
+      "question": "What number of yellow metallic cylinders are there?",
+      "context": "",
+      "options": {
+        "c0": "2",
+        "c1": "3",
+        "c2": "1",
+        "c3": "0"
+      },
+      "target": "c3",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_01.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "CC-BY-4.0_upstream"
+    },
+    {
+      "id": "image_02",
+      "label": "image 02",
+      "modality": "image",
+      "topic": "vqa",
+      "source": "visionjev/programmatic",
+      "recordId": "programmatic:510:count",
+      "question": "How many records have Completed greater than or equal to Planned?",
+      "context": "",
+      "options": {
+        "c0": "Exactly 4 records",
+        "c1": "Exactly 0 records",
+        "c2": "Exactly 2 records",
+        "c3": "Exactly 3 records",
+        "c4": "Exactly 1 records"
+      },
+      "target": "c4",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_02.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "project-owned"
+    },
+    {
+      "id": "text_01",
+      "label": "text 01",
+      "modality": "text",
+      "topic": "agnews",
+      "source": "fancyzhx/ag_news",
+      "recordId": "agnews/train/75683",
+      "question": "What is the topic of this article? Consider the whole message.",
+      "context": "Gridlock at ports may dock retailers (USATODAY.com) USATODAY.com - This could be the year that gridlock steals Christmas.",
+      "options": {
+        "world": "world",
+        "sports": "sports",
+        "business": "business",
+        "scitech": "scitech"
+      },
+      "target": "business",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "image_03",
+      "label": "image 03",
+      "modality": "image",
+      "topic": "document",
+      "source": "pixparse/docvqa-single-page-questions",
+      "recordId": "docvqa:59116",
+      "question": "Which number is at the bottom right of the document??",
+      "context": "",
+      "options": {
+        "c0": "1249",
+        "c1": "Riverview Liquors",
+        "c2": "November 18, 1940",
+        "c3": "412-359-3104"
+      },
+      "target": "c3",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_03.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "MIT_mirror_and_upstream_DocVQA_terms"
+    },
+    {
+      "id": "video_01",
+      "label": "video 01",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020075650",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: Which event will happen next?",
+      "context": "",
+      "options": {
+        "A": "The gray cube and the green object collide",
+        "B": "The gray object collides with the blue object"
+      },
+      "target": "A",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_01-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_01-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_01-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_01-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_01-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_01-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_01-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_01-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_01-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_01-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_01.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "image_04",
+      "label": "image 04",
+      "modality": "image",
+      "topic": "ui",
+      "source": "showlab/ShowUI-desktop",
+      "recordId": "showui_desktop:screenshots/clock/screen_2.png:5875634104925020600",
+      "question": "The screenshot is divided into nine numbered regions. Which region contains the UI element described as: Positioned above the 'Start' button, right of minutes digits.?",
+      "context": "",
+      "options": {
+        "c0": "Region 4 (middle-left)",
+        "c1": "Region 9 (bottom-right)",
+        "c2": "Region 6 (middle-right)",
+        "c3": "Region 3 (top-right)",
+        "c4": "Region 5 (center)",
+        "c5": "Region 8 (bottom-center)",
+        "c6": "Region 7 (bottom-left)",
+        "c7": "Region 2 (top-center)",
+        "c8": "Region 1 (top-left)"
+      },
+      "target": "c4",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_04.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "upstream_ShowUI_OmniAct_terms"
+    },
+    {
+      "id": "video_02",
+      "label": "video 02",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020036408",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: Which event will happen next?",
+      "context": "",
+      "options": {
+        "A": "The cube and the sphere collide",
+        "B": "The yellow object collides with the cube"
+      },
+      "target": "A",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_02-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_02-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_02-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_02-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_02-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_02-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_02-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_02-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_02-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_02-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_02.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "text_02",
+      "label": "text 02",
+      "modality": "text",
+      "topic": "banking77",
+      "source": "legacy-datasets/banking77",
+      "recordId": "banking77/train/4074",
+      "question": "Which banking intent best describes this customer message?",
+      "context": "How do I get a PIN?",
+      "options": {
+        "activate_my_card": "activate my card",
+        "age_limit": "age limit",
+        "apple_pay_or_google_pay": "apple pay or google pay",
+        "atm_support": "atm support",
+        "automatic_top_up": "automatic top up",
+        "balance_not_updated_after_bank_transfer": "balance not updated after bank transfer",
+        "balance_not_updated_after_cheque_or_cash_deposit": "balance not updated after cheque or cash deposit",
+        "beneficiary_not_allowed": "beneficiary not allowed",
+        "cancel_transfer": "cancel transfer",
+        "card_about_to_expire": "card about to expire",
+        "card_acceptance": "card acceptance",
+        "card_arrival": "card arrival",
+        "card_delivery_estimate": "card delivery estimate",
+        "card_linking": "card linking",
+        "card_not_working": "card not working",
+        "card_payment_fee_charged": "card payment fee charged",
+        "card_payment_not_recognised": "card payment not recognised",
+        "card_payment_wrong_exchange_rate": "card payment wrong exchange rate",
+        "card_swallowed": "card swallowed",
+        "cash_withdrawal_charge": "cash withdrawal charge",
+        "cash_withdrawal_not_recognised": "cash withdrawal not recognised",
+        "change_pin": "change pin",
+        "compromised_card": "compromised card",
+        "contactless_not_working": "contactless not working",
+        "country_support": "country support",
+        "declined_card_payment": "declined card payment",
+        "declined_cash_withdrawal": "declined cash withdrawal",
+        "declined_transfer": "declined transfer",
+        "direct_debit_payment_not_recognised": "direct debit payment not recognised",
+        "disposable_card_limits": "disposable card limits",
+        "edit_personal_details": "edit personal details",
+        "exchange_charge": "exchange charge",
+        "exchange_rate": "exchange rate",
+        "exchange_via_app": "exchange via app",
+        "extra_charge_on_statement": "extra charge on statement",
+        "failed_transfer": "failed transfer",
+        "fiat_currency_support": "fiat currency support",
+        "get_disposable_virtual_card": "get disposable virtual card",
+        "get_physical_card": "get physical card",
+        "getting_spare_card": "getting spare card",
+        "getting_virtual_card": "getting virtual card",
+        "lost_or_stolen_card": "lost or stolen card",
+        "lost_or_stolen_phone": "lost or stolen phone",
+        "order_physical_card": "order physical card",
+        "passcode_forgotten": "passcode forgotten",
+        "pending_card_payment": "pending card payment",
+        "pending_cash_withdrawal": "pending cash withdrawal",
+        "pending_top_up": "pending top up",
+        "pending_transfer": "pending transfer",
+        "pin_blocked": "pin blocked",
+        "receiving_money": "receiving money",
+        "Refund_not_showing_up": "Refund not showing up",
+        "request_refund": "request refund",
+        "reverted_card_payment?": "reverted card payment?",
+        "supported_cards_and_currencies": "supported cards and currencies",
+        "terminate_account": "terminate account",
+        "top_up_by_bank_transfer_charge": "top up by bank transfer charge",
+        "top_up_by_card_charge": "top up by card charge",
+        "top_up_by_cash_or_cheque": "top up by cash or cheque",
+        "top_up_failed": "top up failed",
+        "top_up_limits": "top up limits",
+        "top_up_reverted": "top up reverted",
+        "topping_up_by_card": "topping up by card",
+        "transaction_charged_twice": "transaction charged twice",
+        "transfer_fee_charged": "transfer fee charged",
+        "transfer_into_account": "transfer into account",
+        "transfer_not_received_by_recipient": "transfer not received by recipient",
+        "transfer_timing": "transfer timing",
+        "unable_to_verify_identity": "unable to verify identity",
+        "verify_my_identity": "verify my identity",
+        "verify_source_of_funds": "verify source of funds",
+        "verify_top_up": "verify top up",
+        "virtual_card_not_working": "virtual card not working",
+        "visa_or_mastercard": "visa or mastercard",
+        "why_verify_identity": "why verify identity",
+        "wrong_amount_of_cash_received": "wrong amount of cash received",
+        "wrong_exchange_rate_for_cash_withdrawal": "wrong exchange rate for cash withdrawal"
+      },
+      "target": "get_physical_card",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "video_03",
+      "label": "video 03",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020034190",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: Which event will happen next?",
+      "context": "",
+      "options": {
+        "A": "The gray object and the metal object collide",
+        "B": "The gray object and the sphere collide"
+      },
+      "target": "B",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_03-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_03-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_03-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_03-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_03-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_03-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_03-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_03-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_03-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_03-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_03.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "video_04",
+      "label": "video 04",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020071587",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: Which event will happen next?",
+      "context": "",
+      "options": {
+        "A": "The yellow cylinder collides with the cube",
+        "B": "The yellow object and the gray cylinder collide"
+      },
+      "target": "B",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_04-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_04-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_04-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_04-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_04-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_04-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_04-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_04-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_04-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_04-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_04.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "video_05",
+      "label": "video 05",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020065646",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: What will happen next?",
+      "context": "",
+      "options": {
+        "A": "The cylinder collides with the blue cube",
+        "B": "The yellow object collides with the cylinder"
+      },
+      "target": "B",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_05-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_05-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_05-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_05-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_05-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_05-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_05-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_05-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_05-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_05-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_05.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "video_06",
+      "label": "video 06",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020016676",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: Which event will happen next?",
+      "context": "",
+      "options": {
+        "A": "The cyan object collides with the green sphere",
+        "B": "The cyan object and the red object collide"
+      },
+      "target": "B",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_06-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_06-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_06-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_06-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_06-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_06-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_06-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_06-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_06-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_06-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_06.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "image_05",
+      "label": "image 05",
+      "modality": "image",
+      "topic": "vqa",
+      "source": "lmms-lab-encoder/textvqa",
+      "recordId": "textvqa:2093",
+      "question": "who edited this book?",
+      "context": "",
+      "options": {
+        "c0": "lider",
+        "c1": "wizz",
+        "c2": "stewart a. baker and a. bartlett giamatti",
+        "c3": "la beaute"
+      },
+      "target": "c2",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_05.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "upstream_TextVQA_terms"
+    },
+    {
+      "id": "video_07",
+      "label": "video 07",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020063182",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: What will happen next?",
+      "context": "",
+      "options": {
+        "A": "The gray cylinder and the brown cylinder collide",
+        "B": "The brown cylinder and the yellow sphere collide"
+      },
+      "target": "A",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_07-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_07-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_07-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_07-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_07-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_07-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_07-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_07-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_07-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_07-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_07.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "video_08",
+      "label": "video 08",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020032086",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: Which event will happen next?",
+      "context": "",
+      "options": {
+        "A": "The yellow cylinder and the green cylinder collide",
+        "B": "The yellow cylinder and the blue object collide"
+      },
+      "target": "B",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_08-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_08-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_08-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_08-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_08-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_08-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_08-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_08-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_08-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_08-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_08.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "image_06",
+      "label": "image 06",
+      "modality": "image",
+      "topic": "ui",
+      "source": "bevaya/RICO-ScreenQA",
+      "recordId": "rico_screenqa:27874:10622745396589324934",
+      "question": "Is there any item?",
+      "context": "",
+      "options": {
+        "c0": "There is no item.",
+        "c1": "The application that will receive the public profile is \"Waterbalance\".",
+        "c2": "The \"FAQS - HELP TOPICS\" are \"Find Locations / ATMs\", \"Sign on with User ID and Password\" and \"Security\".",
+        "c3": "The comparable price of \"Puma Solid Active Capris\" is $32.00."
+      },
+      "target": "c0",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_06.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "image_07",
+      "label": "image 07",
+      "modality": "image",
+      "topic": "vqa",
+      "source": "Multimodal-Fatima/VQAv2_train",
+      "recordId": "vqav2:265207011",
+      "question": "What is the street sign?",
+      "context": "",
+      "options": {
+        "c0": "pitcher",
+        "c1": "day ln",
+        "c2": "1858",
+        "c3": "friction"
+      },
+      "target": "c1",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_07.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "upstream_VQAv2_terms"
+    },
+    {
+      "id": "image_08",
+      "label": "image 08",
+      "modality": "image",
+      "topic": "game",
+      "source": "OpenMOSS-Team/GameQA-140K",
+      "recordId": "gameqa:star-battle-cells_of_region-Easy-00213:2",
+      "question": "We have a 5*5 grid.The grid is divided into 5 regions. Cells with the same color belong to the same region. Region with index 0 has the color of light pink. Region with index 1 has the color of powder blue. Region with index 2 has the color of light green. Region with index 3 has the color of peach. Region with index 4 has the color of red. In the image,a star is represented by a black dot. If a cell has been placed a star,a black dot will be shown on this cell. We should place the star in this Star Battle Puzzle according to the following rules: Each row must contain exactly 1 star(s). Each column must contain 1 star(s). Each region must contain exactly 1 star(s). Stars cannot be adjacent to each other, including diagonally. The cells in the grid are labeled with row and column numbers starting from 0. The top-left corner of the grid is (0, 0). (x,y) means a cell at row x and column y. Now we have placed some stars in the grid. The region with index 4 is represented by the color red in the grid.Given the current state, which cell in the following options belong to region 4?",
+      "context": "",
+      "options": {
+        "c0": "(1,0)",
+        "c1": "(4,4)",
+        "c2": "(0,2)",
+        "c3": "(1,3)",
+        "c4": "(1,1)",
+        "c5": "(0,4)",
+        "c6": "(4,2)",
+        "c7": "(3,4)"
+      },
+      "target": "c7",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_08.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "MIT"
+    },
+    {
+      "id": "text_03",
+      "label": "text 03",
+      "modality": "text",
+      "topic": "mnli",
+      "source": "nyu-mll/multi_nli",
+      "recordId": "mnli/train/114605",
+      "question": "Hypothesis: \"They won the first Super Bowl.\" How does it relate to the premise?",
+      "context": "the other uh games that they would play for the Super Bowls",
+      "options": {
+        "entailment": "The hypothesis follows from the premise",
+        "neutral": "neutral",
+        "contradiction": "contradiction"
+      },
+      "target": "neutral",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "video_09",
+      "label": "video 09",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020064164",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: What will happen next?",
+      "context": "",
+      "options": {
+        "A": "The brown cube collides with the sphere",
+        "B": "The yellow cube collides with the sphere"
+      },
+      "target": "B",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_09-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_09-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_09-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_09-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_09-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_09-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_09-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_09-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_09-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_09-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_09.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "text_04",
+      "label": "text 04",
+      "modality": "text",
+      "topic": "dbpedia14",
+      "source": "fancyzhx/dbpedia_14",
+      "recordId": "dbpedia14/train/481848",
+      "question": "Which category does the subject of this encyclopedia text belong to?",
+      "context": "The Checkered Flag is a 1963 film.",
+      "options": {
+        "company": "company",
+        "educationalinstitution": "educationalinstitution",
+        "artist": "artist",
+        "athlete": "athlete",
+        "officeholder": "officeholder",
+        "meanoftransportation": "meanoftransportation",
+        "building": "building",
+        "naturalplace": "naturalplace",
+        "village": "village",
+        "animal": "animal",
+        "plant": "plant",
+        "album": "album",
+        "film": "film",
+        "writtenwork": "writtenwork"
+      },
+      "target": "film",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "text_05",
+      "label": "text 05",
+      "modality": "text",
+      "topic": "yelp",
+      "source": "Yelp/yelp_review_full",
+      "recordId": "yelp/train/320496",
+      "question": "How many stars did this reviewer give?",
+      "context": "Ugh",
+      "options": {
+        "0": "1 star: terrible experience",
+        "1": "2 stars: poor",
+        "2": "3 stars: average",
+        "3": "4 stars: good",
+        "4": "5 stars: excellent"
+      },
+      "target": "2",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "video_10",
+      "label": "video 10",
+      "modality": "video",
+      "topic": "CLEVRER",
+      "source": "CLEVRER",
+      "recordId": "9020072689",
+      "question": "Analyze the video and select the best option for the following multiple choice question.\nQuestion: What will happen next?",
+      "context": "",
+      "options": {
+        "A": "The metal object collides with the cube",
+        "B": "The metal object collides with the sphere"
+      },
+      "target": "A",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-video_10-0.webp",
+          "time": 0.0
+        },
+        {
+          "src": "media/sample-video_10-1.webp",
+          "time": 0.56
+        },
+        {
+          "src": "media/sample-video_10-2.webp",
+          "time": 1.12
+        },
+        {
+          "src": "media/sample-video_10-3.webp",
+          "time": 1.68
+        },
+        {
+          "src": "media/sample-video_10-4.webp",
+          "time": 2.24
+        },
+        {
+          "src": "media/sample-video_10-5.webp",
+          "time": 2.84
+        },
+        {
+          "src": "media/sample-video_10-6.webp",
+          "time": 3.4
+        },
+        {
+          "src": "media/sample-video_10-7.webp",
+          "time": 3.96
+        },
+        {
+          "src": "media/sample-video_10-8.webp",
+          "time": 4.52
+        },
+        {
+          "src": "media/sample-video_10-9.webp",
+          "time": 5.08
+        }
+      ],
+      "kind": "training",
+      "license": "See upstream dataset terms",
+      "video": "media/sample-video_10.mp4",
+      "videoOffset": 0
+    },
+    {
+      "id": "text_06",
+      "label": "text 06",
+      "modality": "text",
+      "topic": "amazon",
+      "source": "SetFit/amazon_reviews_multi_en",
+      "recordId": "amazon/train/7422",
+      "question": "How many stars did this product reviewer give?",
+      "context": "Runs small sent back",
+      "options": {
+        "0": "1 star: very negative",
+        "1": "2 stars: negative",
+        "2": "3 stars: mixed",
+        "3": "4 stars: positive",
+        "4": "5 stars: very positive"
+      },
+      "target": "0",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "text_07",
+      "label": "text 07",
+      "modality": "text",
+      "topic": "sst5",
+      "source": "SetFit/sst5",
+      "recordId": "sst5/train/2964",
+      "question": "What is the sentiment of this review sentence?",
+      "context": "zoom !",
+      "options": {
+        "0": "very negative",
+        "1": "negative",
+        "2": "neutral",
+        "3": "positive",
+        "4": "very positive"
+      },
+      "target": "3",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "image_09",
+      "label": "image 09",
+      "modality": "image",
+      "topic": "vqa",
+      "source": "lmms-lab-encoder/GQA",
+      "recordId": "gqa:15883383",
+      "question": "Is the white pillow sitting on a nightstand?",
+      "context": "",
+      "options": {
+        "true": "true",
+        "false": "false"
+      },
+      "target": "false",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_09.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "MIT"
+    },
+    {
+      "id": "text_08",
+      "label": "text 08",
+      "modality": "text",
+      "topic": "boolq",
+      "source": "google/boolq",
+      "recordId": "boolq/train/6593",
+      "question": "is it possible to live in bora bora?",
+      "context": "As of 2017, the Bora Bora group has a permanent population of 10,605.",
+      "options": {
+        "true": "true",
+        "false": "false"
+      },
+      "target": "true",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "text_09",
+      "label": "text 09",
+      "modality": "text",
+      "topic": "trec",
+      "source": "CogComp/trec",
+      "recordId": "trec/train/1427",
+      "question": "What kind of answer does this question ask for?",
+      "context": "What is God ?",
+      "options": {
+        "abbreviation": "Asks what an abbreviation stands for",
+        "entity": "Asks about a thing, object, animal, product, or creative work",
+        "description": "Asks for a definition, description, reason, or manner",
+        "human": "Asks about a person, group, or organisation",
+        "location": "Asks about a place",
+        "number": "Asks for a number, date, count, or other numeric value"
+      },
+      "target": "description",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "text_10",
+      "label": "text 10",
+      "modality": "text",
+      "topic": "imdb",
+      "source": "stanfordnlp/imdb",
+      "recordId": "imdb/train/1415",
+      "question": "Is this movie review positive?",
+      "context": "Well, not yet, at least. It's not listed in the worst 100... So let's all team up, and put it in it's rightful place. This is truly a bad movie. (And I liked Ishtar!) ;)",
+      "options": {
+        "true": "true",
+        "false": "false"
+      },
+      "target": "false",
+      "predictions": {},
+      "media": [],
+      "kind": "training",
+      "license": "See upstream dataset terms"
+    },
+    {
+      "id": "image_10",
+      "label": "image 10",
+      "modality": "image",
+      "topic": "document",
+      "source": "HuggingFaceM4/ChartQA",
+      "recordId": "chartqa:train-00000-of-00003-49492f364babfa44.parquet:2998",
+      "question": "What represents the two bars in the chart??",
+      "context": "",
+      "options": {
+        "c0": "1192730",
+        "c1": "[Bad thing, Good thing]",
+        "c2": "7204.8",
+        "c3": "Hank Aaron"
+      },
+      "target": "c1",
+      "predictions": {},
+      "media": [
+        {
+          "src": "media/sample-image_10.webp"
+        }
+      ],
+      "kind": "training",
+      "license": "GPL-3.0"
+    }
+  ]
+}
